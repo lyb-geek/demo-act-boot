@@ -1,0 +1,12 @@
+server:
+  context-path: /oa
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/ACT
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
